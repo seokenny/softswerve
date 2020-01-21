@@ -1,0 +1,62 @@
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+//ABOUT US
+.aboutus {
+    width: 100%;
+    text-align: center;
+    &__left {
+
+    }
+    &__right {
+
+        &-button {
+            width: 175px;
+            min-height: 50px;
+            background-color: black;
+            margin: auto;
+            color: white;
+            position: relative;
+
+            & .more_button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+//OUR FLAVORS
+.ourflavors {
+    width: 100%;
+    text-align: center;
+}
+
+//GALLERY
+.gallery {
+    width: 100%;
+    text-align: center;
+}
+
+//MISC
+.liner {
+    height: 1px;
+    width: 80%;
+    background-color: gray;
+    margin: 45px auto;
+    display: block;
+}
+
+.tempbox {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 70%;
+    background-color: cornflowerblue;
+}
