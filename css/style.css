@@ -27,6 +27,10 @@ body {
 * {
   font-family: "Cocogoose"; }
 
+a {
+  color: unset;
+  text-decoration: unset; }
+
 #hero {
   height: 100vh;
   width: 100%;
@@ -116,15 +120,53 @@ body {
       background-color: #5EB1B9;
       color: white; }
 
+.footer {
+  text-align: center;
+  font-size: 1.75rem; }
+  .footer__days {
+    width: 25%;
+    display: inline-block;
+    text-align: left; }
+    .footer__days p {
+      font-family: "Noto Sans";
+      font-weight: bold;
+      margin: 1rem 0; }
+  .footer__times {
+    width: 25%;
+    display: inline-block;
+    text-align: right; }
+    .footer__times p {
+      font-family: "Noto Sans";
+      font-weight: bold;
+      margin: 1rem 0; }
+
 .social {
+  margin: 2rem 0;
   display: flex;
   justify-content: center;
   list-style-type: none; }
-  .social__s {
-    height: 50px;
-    width: 50px;
-    background-color: blue;
-    margin: 1rem; }
+  .social__s img {
+    height: 35px;
+    width: 35px;
+    margin: .5rem; }
+
+/*********MENU HTML PAGE***************/
+.fullmenu {
+  text-align: center; }
+  .fullmenu__cat {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 45px; }
+    .fullmenu__cat-list {
+      list-style-type: none;
+      text-transform: uppercase;
+      font-size: 2rem; }
+      .fullmenu__cat-list li {
+        color: #788E94;
+        letter-spacing: .15rem;
+        margin: 1.5rem 0;
+        font-family: "Noto Sans";
+        font-weight: bold; }
 
 .liner {
   height: 1px;
