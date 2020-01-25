@@ -44,7 +44,7 @@ a {
   height: 50vh;
   width: 100%;
   background-color: aliceblue;
-  background-image: url("../images/herobanner.jpg");
+  background-image: url("../images/herobanner_blue.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -136,8 +136,13 @@ a {
       color: white; }
 
 .footer {
+  background-image: url("../images/footerbanner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  color: white; }
   .footer__address {
     font-family: "Noto Sans";
     font-weight: bold;
@@ -207,26 +212,50 @@ a {
   background-position: center; }
 
 .copyright {
-  margin: 1rem 0 3rem 0; }
+  padding: 1rem 0 3rem 0; }
 
 .your-class {
   width: 100%; }
 
 .image {
-  background-color: purple;
-  border: 1px solid blue;
   width: 33%;
   height: 150px; }
+  .image0 {
+    background-image: url("../images/galleryimages/gi_square/image0.jpg");
+    background-size: cover;
+    background-position: center; }
   .image1 {
-    background-color: orange; }
+    background-image: url("../images/galleryimages/gi_square/image1.jpg");
+    background-size: cover;
+    background-position: center; }
   .image2 {
-    background-color: black; }
+    background-image: url("../images/galleryimages/gi_square/image2.jpg");
+    background-size: cover;
+    background-position: center; }
   .image3 {
-    background-color: yellow; }
+    background-image: url("../images/galleryimages/gi_square/image3.jpg");
+    background-size: cover;
+    background-position: center; }
   .image4 {
-    background-color: red; }
+    background-image: url("../images/galleryimages/gi_square/image4.jpg");
+    background-size: cover;
+    background-position: center; }
   .image5 {
-    background-color: green; }
+    background-image: url("../images/galleryimages/gi_square/image5.jpg");
+    background-size: cover;
+    background-position: center; }
+  .image6 {
+    background-image: url("../images/galleryimages/gi_square/image6.jpg");
+    background-size: cover;
+    background-position: center; }
+  .image7 {
+    background-image: url("../images/galleryimages/gi_square/image7.jpg");
+    background-size: cover;
+    background-position: center; }
+  .image8 {
+    background-image: url("../images/galleryimages/gi_square/image8.jpg");
+    background-size: cover;
+    background-position: center; }
 
 .section__header {
   text-transform: uppercase;
