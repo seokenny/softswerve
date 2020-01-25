@@ -32,7 +32,16 @@ a {
   text-decoration: unset; }
 
 #hero {
-  height: 100vh;
+  height: 110vh;
+  width: 100%;
+  background-color: aliceblue;
+  background-image: url("../images/herobanner_blue.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#menu_hero {
+  height: 50vh;
   width: 100%;
   background-color: aliceblue;
   background-image: url("../images/herobanner.jpg");
@@ -89,7 +98,8 @@ a {
   letter-spacing: .1rem;
   width: 75%;
   margin-left: 12.5%;
-  font-family: "Noto Sans"; }
+  font-family: "Noto Sans";
+  color: #788E94; }
 
 .ourflavors {
   width: 100%;
@@ -100,7 +110,8 @@ a {
     text-transform: uppercase;
     font-size: 2rem;
     padding: 1rem 0;
-    color: #247178; }
+    color: #247178;
+    letter-spacing: .1rem; }
 
 .gallery {
   width: 100%;
@@ -108,7 +119,11 @@ a {
 
 .catering {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  background-image: url("../images/pattern.jpg");
+  padding: 7rem 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .catering__header {
     cursor: pointer;
     padding: 20px;
@@ -123,6 +138,11 @@ a {
 .footer {
   text-align: center;
   font-size: 1.75rem; }
+  .footer__address {
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin-bottom: 2rem; }
   .footer__days {
     width: 25%;
     display: inline-block;
@@ -130,7 +150,7 @@ a {
     .footer__days p {
       font-family: "Noto Sans";
       font-weight: bold;
-      margin: 1rem 0; }
+      margin: 2rem 0; }
   .footer__times {
     width: 25%;
     display: inline-block;
@@ -138,7 +158,7 @@ a {
     .footer__times p {
       font-family: "Noto Sans";
       font-weight: bold;
-      margin: 1rem 0; }
+      margin: 2rem 0; }
 
 .social {
   margin: 2rem 0;
@@ -154,19 +174,21 @@ a {
 .fullmenu {
   text-align: center; }
   .fullmenu__cat {
-    width: 85%;
-    margin-left: 7.5%;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 45px; }
     .fullmenu__cat-list {
       list-style-type: none;
       text-transform: uppercase;
-      font-size: 2rem; }
+      font-size: 1.75rem; }
+      .fullmenu__cat-list-topic {
+        font-weight: bold;
+        font-size: 1.75rem; }
       .fullmenu__cat-list li {
         color: #788E94;
         letter-spacing: .15rem;
         margin: 1.5rem 0;
-        font-family: "Noto Sans";
-        font-weight: bold; }
+        font-family: "Noto Sans"; }
 
 .liner {
   height: 1px;
@@ -183,6 +205,28 @@ a {
   background-image: url("../images/galleryexample.jpg");
   background-size: cover;
   background-position: center; }
+
+.copyright {
+  margin: 1rem 0 3rem 0; }
+
+.your-class {
+  width: 100%; }
+
+.image {
+  background-color: purple;
+  border: 1px solid blue;
+  width: 33%;
+  height: 150px; }
+  .image1 {
+    background-color: orange; }
+  .image2 {
+    background-color: black; }
+  .image3 {
+    background-color: yellow; }
+  .image4 {
+    background-color: red; }
+  .image5 {
+    background-color: green; }
 
 .section__header {
   text-transform: uppercase;

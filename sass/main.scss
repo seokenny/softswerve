@@ -12,13 +12,23 @@ a {
 }
 
 #hero {
-    height: 100vh;
+    height: 110vh;
+    width: 100%;
+    background-color: aliceblue;
+    background-image: url("../images/herobanner_blue.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu_hero {
+    height: 50vh;
     width: 100%;
     background-color: aliceblue;
     background-image: url("../images/herobanner.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 
 //ABOUT US
@@ -86,6 +96,7 @@ a {
     width: 75%;
     margin-left: 12.5%;
     font-family: "Noto Sans";
+    color: #788E94;
 }
 
 //OUR FLAVORS
@@ -101,6 +112,7 @@ a {
         font-size: 2rem;
         padding: 1rem 0;
         color: #247178;
+        letter-spacing: .1rem;
     }
 }
 
@@ -114,6 +126,10 @@ a {
 .catering {
     width: 100%;
     text-align: center;
+    background-image: url("../images/pattern.jpg");
+    padding: 7rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
     &__header {
         cursor: pointer;
         padding: 20px;
@@ -133,7 +149,12 @@ a {
 .footer {
     text-align: center;
     font-size: 1.75rem;
-    
+    &__address {
+        font-family: "Noto Sans";
+        font-weight: bold;
+        font-size: 2.25rem;
+        margin-bottom: 2rem;
+    }
     &__days {
         width: 25%;
         display: inline-block;
@@ -141,7 +162,7 @@ a {
         & p {
             font-family: "Noto Sans";
             font-weight: bold;
-            margin: 1rem 0;
+            margin: 2rem 0;
         }
     }
 
@@ -152,7 +173,7 @@ a {
         & p {
             font-family: "Noto Sans";
             font-weight: bold;
-            margin: 1rem 0;
+            margin: 2rem 0;
         }
     }
 }
@@ -178,8 +199,8 @@ a {
 .fullmenu {
     text-align: center;
     &__cat {
-        width: 85%;
-        margin-left: 7.5%;
+        width: 80%;
+        margin-left: 10%;
         margin-top: 45px;
         &-header {
 
@@ -187,18 +208,20 @@ a {
         &-list {
             list-style-type: none;
             text-transform: uppercase;
-            font-size: 2rem;
+            font-size: 1.75rem;
+            &-topic {
+                font-weight: bold;
+                font-size: 1.75rem;
+            }
             & li {
                 color: #788E94;
                 letter-spacing: .15rem;
                 margin: 1.5rem 0;
                 font-family: "Noto Sans";
-                font-weight: bold;
             }
         }
     }
 }
-
 
 
 
@@ -221,6 +244,36 @@ a {
     background-image: url("../images/galleryexample.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.copyright {
+    margin: 1rem 0 3rem 0;
+}
+
+.your-class {
+    width: 100%;
+}
+
+.image {
+    background-color: purple;
+    border: 1px solid blue;
+    width: 33%;
+    height: 150px;
+    &1 {
+        background-color: orange;
+    }
+    &2 {
+        background-color: black;
+    }
+    &3 {
+        background-color: yellow;
+    }
+    &4 {
+        background-color: red;
+    }
+    &5 {
+        background-color: green;
+    }
 }
 
 .section__header {
